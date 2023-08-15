@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #808080;
+}
+.navbar{
+    padding: 0%;
+    justify-content: end;
+}
+.nav-item{
+    margin-right: 10px;
+}
+.introduction{
+    font-family: cursive;
+}
+.goInstrumentos{
+    text-decoration: none;
+    color: inherit;
+    border-style: solid;
+    border-width: 1,5px;
+    padding: 10px;
+    border-color: #ffffff;
+    border-radius: 5px;
+}
+.goAccesorios{
+    text-decoration: none;
+    color: inherit;
+    border-style: solid;
+    border-width: 1,5px;
+    padding: 10px;
+    border-color: #ffffff;
+    border-radius: 5px;
+}
+.wallpaper{
+    background-image: url(../img/Fondo\ -\ 4.jpg);
+    background-size: cover;
+}
+.title-instruments{
+    text-align: center;
+    padding: 100px;
+}
+.instruments{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    row-gap: 20px;
+    column-gap: 10px;
+    text-align: initial;
+    padding: 20px;
+}
+.title-nosotros{
+    text-align: center;
+    padding: 100px;
+}
+.subtitle-nosotros{
+    text-align: center;
+}
+.history{
+    padding: 100px;
+}
+.contact{
+    padding: 100px;
+}
+.end{
+    background-color: #000000;
+}
+.endContent{
+    margin: 0%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.footer-item{
+    list-style: none;
+    text-decoration: none;
+}
+.footer-link{
+    text-decoration: inherit;
+    color: #ffffff;
+}
