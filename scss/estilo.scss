@@ -13,6 +13,19 @@
         margin-right: 10%;
     }
 }
+.title-principle{
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 p .introduction{
         font-family: cursive;
 }
@@ -65,7 +78,7 @@ a .goAccesorios{
     background-size: cover;
 }
 .end{
-    background-color: #000000;
+    background: linear-gradient(black 70px, white);
 }
 .endContent{
     margin: 0%;
